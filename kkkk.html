@@ -1,0 +1,436 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Safin Khan</title>
+  <link href="https://placehold.co/16x16" rel="shortcut icon" type="image/x-icon" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-100 font-poppins">
+  <main class="flex flex-col md:flex-row">
+    <aside class="bg-white w-full md:w-1/4 p-4 shadow-lg">
+      <div class="text-center">
+        <figure class="mb-4">
+          <img alt="Avatar of MD SAFIN KHAN" class="rounded-full mx-auto" height="80" src="safin vai.webp" width="80" />
+        </figure>
+        <h1 class="text-xl font-semibold">MD SAFIN KHAN</h1>
+        <p class="text-gray-600">Student</p>
+        <button class="mt-4 text-blue-500" id="showContactsBtn">
+          Show Contacts
+          <i class="fas fa-chevron-down"></i>
+        </button>
+      </div>
+      <!-- Contacts section -->
+      <div class="hidden mt-4" id="contacts">
+        <ul class="space-y-4">
+          <li class="flex items-center">
+            <i class="fas fa-envelope text-gray-500 mr-2"></i>
+            <a class="text-blue-500" href="mailto:safin@example.com">safinkhan.seam.2005@gmail.com</a>
+          </li>
+          <li class="flex items-center">
+            <i class="fas fa-phone text-gray-500 mr-2"></i>
+            <a class="text-blue-500" href="tel:+1234567890">+880 1775050770</a>
+          </li>
+          <li class="flex items-center">
+            <i class="fas fa-birthday-cake text-gray-500 mr-2"></i>
+            <time datetime="2000-01-01">April 14, 2005</time>
+          </li>
+          <li class="flex items-center">
+            <i class="fas fa-map-marker-alt text-gray-500 mr-2"></i>
+            <address>Tangail, Bangladesh</address>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="flex-1 p-4">
+      <nav class="bg-white p-4 shadow-lg mb-4">
+        <ul class="flex flex-wrap justify-around">
+          <li><button class="text-blue-500 nav-btn" data-nav-link="about">Home / About Me</button></li>
+          <li><button class="nav-btn" data-nav-link="education">Education</button></li>
+          <li><button class="nav-btn" data-nav-link="experience">Experience</button></li>
+          <li><button class="nav-btn" data-nav-link="volunteering">Volunteering</button></li>
+          <li><button class="nav-btn" data-nav-link="skills">Skills</button></li>
+          <li><button class="nav-btn" data-nav-link="portfolio">Portfolio</button></li>
+          <li><button class="nav-btn" data-nav-link="blog">Blog / Updates</button></li>
+          <li><button class="nav-btn" data-nav-link="contact">Contact</button></li>
+          <li><button class="nav-btn" data-nav-link="awards">Awards / Achievements</button></li>
+          <li><button class="nav-btn" data-nav-link="testimonials">Testimonials / References</button></li>
+        </ul>
+      </nav>
+
+      <!-- Sections (Home / About Me, Education, Experience, etc.) -->
+
+      <!-- Home / About Me Section -->
+      <article class="bg-white p-4 shadow-lg mb-4 hidden" data-page="about">
+        <header>
+          <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+        </header>
+        <section class="mb-4">
+          <p>Hi there! I'm Safin Khan, a tech enthusiast currently navigating the exciting world of higher education. I recently wrapped up my Higher Secondary studies in 2023, achieving a GPA of 5. It's a testament to the hard work and dedication I've put in.
+
+            Now, I'm gearing up for my undergraduate journey. To make that happen, I'm immersed in preparing for the SAT and IELTS exams. These exams are crucial steps towards my dream of studying computer science or engineering.
+            
+            Beyond academics, I'm passionate about technology. I love exploring the latest gadgets, diving into coding projects, and staying updated with the ever-evolving tech landscape. I believe technology has the power to revolutionize the world, and I'm eager to be a part of that revolution.
+            
+            I'm excited about the future and the opportunities it holds. With hard work, determination, and a bit of luck, I'm confident that I can achieve my goals.</p>
+        </section>
+      </article>
+
+      <!-- Education Section -->
+      <article class="bg-white p-4 shadow-lg mb-4 hidden" data-page="education">
+        <header>
+          <h2 class="text-2xl font-semibold mb-4">Education</h2>
+        </header>
+        <section class="mb-4">
+          <ul class="space-y-4">
+            <li>
+              <h4 class="font-semibold">Higher Secondary School Certificate(HSC) </h4>
+              <span>2022-2023</span>
+              <p>Shaheed Shahed Hazari College, Satihati , Kalihati , Tangail.,Dhaka Bangladesh.
+                 GPA : 5 out of 5
+                 Average : 87%
+                 Relevant Coursework: Science (Higher Mathematics, Physics, Chemistry, Biology)</p>
+            </li>
+            <li>
+              <h4 class="font-semibold">Secondary School Certificate (SSC)</h4>
+              <span>2019-2021</span>
+              <p>B. S. Bisweswari High School, Bararia suruj Tangail Sadar Tangail,Dhaka,Bangladesh
+                 GPA: 4.61 out of 5
+                 Average: 75%
+                 Relevant Coursework: Science(Higher Mathematics, Physics, Chemistry, Biology)</p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- Experience Section -->
+      <!-- Experience Section -->
+      <article class="bg-white p-4 shadow-lg mb-4 hidden" data-page="experience">
+        <header>
+          <h2 class="text-2xl font-semibold mb-4">Experience</h2>
+        </header>
+        <section class="mb-4">
+          <h4 class="font-semibold">Assistant Teacher at Three Star Kindergarten (2022-2023)</h4>
+          <h5 class="text-gray-600">Key Achievements:</h5>
+          <ul class="list-disc ml-5">
+            <li>Taught science and mathematics to primary school students.</li>
+            <li>Developed and implemented engaging lesson plans and activities.</li>
+            <li>Assisted with classroom management and student supervision.</li>
+          </ul>
+          <h5 class="text-gray-600 mt-3">Skills Gained:</h5>
+          <ul class="list-disc ml-5">
+            <li>Teaching and instructional skills</li>
+            <li>Curriculum development</li>
+            <li>Classroom management and student supervision</li>
+            <li>Patience and understanding</li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- Volunteering Section -->
+      <!-- volunteering... -->
+      <article class="bg-white p-4 shadow-lg mb-4 hidden" data-page="volunteering">
+        <header>
+          <h2 class="text-2xl font-semibold mb-4">Volunteering</h2>
+        </header>
+        <section class="mb-4">
+          <!-- Be My Eyes (Virtual Volunteer) -->
+          <div class="mb-8">
+            <h4 class="font-semibold">Be My Eyes (Virtual Volunteer) (2022-2023)</h4>
+            <h5 class="text-gray-600">Key Achievements:</h5>
+            <ul class="list-disc ml-5">
+              <li>Provided assistance to visually impaired individuals by reading labels, describing objects, and navigating surroundings.</li>
+            </ul>
+            <h5 class="text-gray-600 mt-3">Skills Gained:</h5>
+            <ul class="list-disc ml-5">
+              <li>Empathy and compassion</li>
+              <li>Effective communication and listening skills</li>
+              <li>Patience and understanding</li>
+              <li>Ability to think quickly and adapt to different situations</li>
+              <li>Experience working with people with disabilities</li>
+            </ul>
+          </div>
+      
+          <!-- United Nations (Virtual Volunteer) -->
+          <div class="mb-8">
+            <h4 class="font-semibold">United Nations (Virtual Volunteer) (2024)</h4>
+            <h5 class="text-gray-600">Key Achievements:</h5>
+            <ul class="list-disc ml-5">
+              <li>Organized and analyzed large datasets for research projects.</li>
+              <li>Identified and corrected errors or inconsistencies in data to ensure accuracy and reliability.</li>
+              <li>Structured and organized data into a logical format for analysis, such as spreadsheets or databases.</li>
+              <li>Used statistical methods and tools to extract meaningful insights and patterns from data, such as calculating averages, creating visualizations, and conducting correlations.</li>
+            </ul>
+            <h5 class="text-gray-600 mt-3">Skills Gained:</h5>
+            <ul class="list-disc ml-5">
+              <li>Data entry and analysis skills</li>
+              <li>Proficiency in data analysis software (Microsoft Excel, Tableau, R, Python)</li>
+              <li>Attention to detail and accuracy</li>
+              <li>Problem-solving and critical thinking skills</li>
+            </ul>
+          </div>
+      
+          <!-- Better Education and Agriculture (Virtual English Tutor) -->
+          <div class="mb-8">
+            <h4 class="font-semibold">Better Education and Agriculture (Virtual English Tutor) (2024)</h4>
+            <h5 class="text-gray-600">Key Achievements:</h5>
+            <ul class="list-disc ml-5">
+              <li>Provided one-on-one English lessons to Vietnamese children and adults, focusing on pronunciation, grammar, vocabulary, and conversation skills.</li>
+              <li>Collaborated with the project team to develop engaging and effective English language learning materials.</li>
+              <li>Participated in virtual events and activities to raise awareness about the importance of English education and recruit new students.</li>
+            </ul>
+            <h5 class="text-gray-600 mt-3">Skills Gained:</h5>
+            <ul class="list-disc ml-5">
+              <li>Teaching and instructional skills</li>
+              <li>Curriculum development</li>
+              <li>Online communication and collaboration</li>
+              <li>Cultural awareness and sensitivity</li>
+            </ul>
+          </div>
+      
+          <!-- Precious Pairs Inc (Virtual Email Manager) -->
+          <div class="mb-8">
+            <h4 class="font-semibold">Precious Pairs Inc (Virtual Email Manager) (2024)</h4>
+            <h5 class="text-gray-600">Key Achievements:</h5>
+            <ul class="list-disc ml-5">
+              <li>Managed and maintained the organization's email accounts and systems.</li>
+              <li>Created and sent email newsletters and campaigns to subscribers.</li>
+              <li>Responded to email inquiries and provided customer support.</li>
+            </ul>
+            <h5 class="text-gray-600 mt-3">Skills Gained:</h5>
+            <ul class="list-disc ml-5">
+              <li>Email management and administration</li>
+              <li>Customer service and communication skills</li>
+              <li>Basic knowledge of email marketing and automation</li>
+            </ul>
+          </div>
+      
+          <!-- Rios Foundation Inc (Virtual Grant Writer) -->
+          <div class="mb-8">
+            <h4 class="font-semibold">Rios Foundation Inc (Virtual Grant Writer) (2024)</h4>
+            <h5 class="text-gray-600">Key Achievements:</h5>
+            <ul class="list-disc ml-5">
+              <li>Researched and wrote grant proposals to fund drinking water quality projects.</li>
+              <li>Conducted research on drinking water quality issues and potential solutions.</li>
+              <li>Collaborated with project teams to develop grant proposals that aligned with the foundation's goals.</li>
+            </ul>
+            <h5 class="text-gray-600 mt-3">Skills Gained:</h5>
+            <ul class="list-disc ml-5">
+              <li>Grant writing and research skills</li>
+              <li>Knowledge of drinking water quality issues and solutions</li>
+              <li>Ability to collaborate with a team to achieve common goals</li>
+            </ul>
+          </div>
+      
+          <!-- Life Target Incorporate (Volunteer Video Editor) -->
+          <div class="mb-8">
+            <h4 class="font-semibold">Life Target Incorporate (Volunteer Video Editor) (2024)</h4>
+            <h5 class="text-gray-600">Key Achievements:</h5>
+            <ul class="list-disc ml-5">
+              <li>Edited 21 videos (10 x 90 seconds and 11 x 3 minutes) for a violence prevention campaign.</li>
+              <li>Ensured consistent formatting, integrated links, clips, and images, and maintained a cohesive visual style across all content.</li>
+              <li>Contributed to raising awareness about violence prevention and promoting positive social change.</li>
+            </ul>
+            <h5 class="text-gray-600 mt-3">Skills Gained:</h5>
+            <ul class="list-disc ml-5">
+              <li>Proficiency in video editing software (Adobe Premiere Pro, Capcut)</li>
+              <li>Time management and organization skills</li>
+              <li>Ability to work efficiently under tight deadlines</li>
+              <li>Collaboration and teamwork</li>
+            </ul>
+          </div>
+        </section>
+      </article>
+
+      <!-- Skills Section -->
+      <article class="bg-white p-4 shadow-lg mb-4 hidden" data-page="skills">
+        <header>
+          <h2 class="text-2xl font-semibold mb-4">Skills</h2>
+        </header>
+        <section class="mb-4">
+          <!-- Academic Skills -->
+          <div class="mb-8">
+            <h4 class="font-semibold">Academic Skills</h4>
+            <ul class="list-disc ml-5">
+              <li><strong>Critical Thinking:</strong> Ability to analyze information, evaluate arguments, and draw logical conclusions.</li>
+              <li><strong>Problem-Solving:</strong> Skill in breaking down complex problems into smaller, manageable steps and finding effective solutions.</li>
+              <li><strong>Research and Analysis:</strong> Proficiency in gathering, evaluating, and synthesizing information from various sources.</li>
+              <li><strong>Time Management:</strong> Effective organization and prioritization of tasks to meet deadlines.</li>
+              <li><strong>Writing and Communication:</strong> Clear and concise written and verbal communication skills.</li>
+            </ul>
+          </div>
+      
+          <!-- Technical Skills -->
+          <div class="mb-8">
+            <h4 class="font-semibold">Technical Skills</h4>
+            <ul class="list-disc ml-5">
+              <li><strong>Computer Proficiency:</strong> Familiarity with common software applications.</li>
+              <li><strong>Programming:</strong> Knowledge of programming languages (Python, C++) is beneficial for many fields.</li>
+              <li><strong>Data Analysis:</strong> Skills in working with data, using statistical tools, and interpreting results.</li>
+              <li><strong>Design:</strong> Proficiency in design software (Adobe Photoshop, Illustrator) can be valuable for certain fields.</li>
+            </ul>
+          </div>
+      
+          <!-- Soft Skills -->
+          <div class="mb-8">
+            <h4 class="font-semibold">Soft Skills</h4>
+            <ul class="list-disc ml-5">
+              <li><strong>Leadership:</strong> Ability to guide and motivate others, take initiative, and make decisions.</li>
+              <li><strong>Teamwork:</strong> Skill in working collaboratively with others, sharing ideas, and resolving conflicts.</li>
+              <li><strong>Adaptability:</strong> Flexibility to adjust to new situations and challenges.</li>
+              <li><strong>Interpersonal Skills:</strong> Ability to interact effectively with people from diverse backgrounds.</li>
+              <li><strong>Cultural Awareness:</strong> Understanding and appreciation of different cultures and perspectives.</li>
+            </ul>
+          </div>
+        </section>
+      </article>
+        
+
+      <!-- Portfolio Section -->
+      <article class="bg-white p-4 shadow-lg mb-4 hidden" data-page="portfolio">
+        <header>
+          <h2 class="text-2xl font-semibold mb-4">Portfolio</h2>
+        </header>
+        <section class="mb-4">
+          <ul class="space-y-4">
+            <li>
+              <a href="https://github.com/safinkhan" class="text-blue-500">My GitHub Portfolio</a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- Blog Section -->
+      <article class="bg-white p-4 shadow-lg mb-4 hidden" data-page="blog">
+        <header>
+          <h2 class="text-2xl font-semibold mb-4">Blog / Updates</h2>
+        </header>
+        <section class="mb-4">
+          <p>Check out my latest blog posts on various topics like coding, development, and career growth.</p>
+        </section>
+      </article>
+
+      <!-- Contact Section -->
+      <article class="bg-white p-4 shadow-lg mb-4 hidden" data-page="contact">
+        <header>
+          <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+        </header>
+        <section class="mb-4">
+          <h3 class="font-semibold mb-2">Get in Touch</h3>
+          <div class="space-y-4">
+            <!-- Facebook -->
+            <div class="flex items-center space-x-2">
+              <i class="fab fa-facebook-f text-blue-600 text-xl"></i>
+              <a href="https://www.facebook.com/zephyraristrocat" class="text-blue-500" target="_blank">Facebook - zephyraristrocat</a>
+            </div>
+      
+            <!-- Instagram -->
+            <div class="flex items-center space-x-2">
+              <i class="fab fa-instagram text-pink-500 text-xl"></i>
+              <a href="https://www.instagram.com/mohammedsafinkhansiam/" class="text-blue-500" target="_blank">Instagram - mohammedsafinkhansiam</a>
+            </div>
+      
+            <!-- TikTok -->
+            <div class="flex items-center space-x-2">
+              <i class="fab fa-tiktok text-black text-xl"></i>
+              <a href="https://www.tiktok.com/@saf_uh" class="text-blue-500" target="_blank">TikTok - saf_uh</a>
+            </div>
+      
+            <!-- WhatsApp -->
+            <div class="flex items-center space-x-2">
+              <i class="fab fa-whatsapp text-green-500 text-xl"></i>
+              <a href="https://wa.me/+8801775050770" class="text-blue-500" target="_blank">WhatsApp - +8801775050770</a>
+            </div>
+      
+            <!-- Skype -->
+            <div class="flex items-center space-x-2">
+              <i class="fab fa-skype text-blue-500 text-xl"></i>
+              <a href="skype:live:.cid.5a06cc125cae2ce5?call" class="text-blue-500" target="_blank">Skype - live:.cid.5a06cc125cae2ce5</a>
+             </div>
+        
+
+          <!-- X (formerly Twitter) -->
+           <div class="flex items-center space-x-2">
+            <i class="fab fa-twitter text-blue-500 text-xl"></i>
+            <a href="https://x.com/saf_uh" class="text-blue-500" target="_blank">X (Twitter) - saf_uh</a>
+           </div>
+       </section>
+      </article>
+
+      <!-- Awards Section -->
+      <article class="bg-white p-4 shadow-lg mb-4 hidden" data-page="awards">
+        <header>
+          <h2 class="text-2xl font-semibold mb-4">Awards / Achievements</h2>
+        </header>
+        <section class="mb-4">
+          <ul class="space-y-4">
+            <li>Climate Science Olympiad-23 Semifinalist</li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- Testimonials Section -->
+      <article class="bg-white p-4 shadow-lg mb-4 hidden" data-page="testimonials">
+        <header>
+          <h2 class="text-2xl font-semibold mb-4">Testimonials / References</h2>
+        </header>
+        <section class="mb-4">
+          <ul class="space-y-4">
+            <li>Harvard Online: “CS50’s Introduction to Programming with Python”</li>
+            <li>LinkedIn Learning: “An Productivity Hacks to Reimagine Your Workday and Career” (HRCI.org Certified)</li>
+            <li>Free Code Camp: “Data Analysis With Python”</li>
+            <li>Free Code Camp: “Machine Learning with Python”</li>
+            <li>Free Code Camp: “College Algebra with Python”</li>
+          </ul>
+        </section>
+      </article>
+
+    </div>
+  </main>
+
+  <script>
+    const navButtons = document.querySelectorAll('.nav-btn');
+    const sections = document.querySelectorAll('article[data-page]');
+    const showContactsBtn = document.getElementById('showContactsBtn');
+    const contacts = document.getElementById('contacts');
+
+    navButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const targetPage = button.getAttribute('data-nav-link');
+        
+        // Hide all sections
+        sections.forEach(section => {
+          section.classList.add('hidden');
+        });
+
+        // Show the selected section
+        document.querySelector(`[data-page="${targetPage}"]`).classList.remove('hidden');
+        
+        // Remove the blue class from all buttons
+        navButtons.forEach(nav => {
+          nav.classList.remove('text-blue-500');
+        });
+
+        // Add the blue class to the clicked button
+        button.classList.add('text-blue-500');
+      });
+    });
+
+    showContactsBtn.addEventListener('click', () => {
+      contacts.classList.toggle('hidden');
+      showContactsBtn.innerHTML = contacts.classList.contains('hidden') 
+        ? 'Show Contacts <i class="fas fa-chevron-down"></i>' 
+        : 'Hide Contacts <i class="fas fa-chevron-up"></i>';
+    });
+  </script>
+</body>
+
+</html>
